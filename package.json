@@ -1,0 +1,24 @@
+{
+  "name": "webpack-config-addons",
+  "version": "0.1.0",
+  "description": "A webpack utility for composing addon configurations for creating config presets",
+  "repository": "https://github.com/nivrith/webpack-config-addons",
+  "license": "MIT",
+  "author": "Nivrith <nivrith.mandayam@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "release": "npx np",
+    "test": "npx nyc mocha index.spec"
+  },
+  "dependencies": {
+    "nyc": "^14.1.1",
+    "required-from": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "mocha": "^6.1.4",
+    "mock-require": "^3.0.3",
+    "np": "^5.0.3",
+    "webpack-merge": "^4.2.1"
+  }
+}
