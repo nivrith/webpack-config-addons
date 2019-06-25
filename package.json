@@ -2,6 +2,13 @@
   "name": "webpack-config-addons",
   "version": "0.1.0",
   "description": "A webpack utility for composing addon configurations for creating config presets",
+  "keywords": [
+    "webpack",
+    "addons",
+    "config",
+    "presets",
+    "webpack-config"
+  ],
   "repository": "https://github.com/nivrith/webpack-config-addons",
   "license": "MIT",
   "author": "Nivrith <nivrith.mandayam@gmail.com>",
@@ -20,5 +27,9 @@
     "mock-require": "^3.0.3",
     "np": "^5.0.3",
     "webpack-merge": "^4.2.1"
+  },
+  "engines": {
+    "node": ">=8",
+    "yarn": ">=1.7.0"
   }
 }
