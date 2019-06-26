@@ -18,15 +18,15 @@
     "test": "npx nyc mocha index.spec"
   },
   "dependencies": {
-    "nyc": "^14.1.1",
-    "required-from": "^1.0.3"
+		"required-from": "^1.0.3",
+		"webpack-merge": "^4.2.1"
   },
   "devDependencies": {
+		"nyc": "^14.1.1",
     "eslint": "^6.0.1",
     "mocha": "^6.1.4",
     "mock-require": "^3.0.3",
-    "np": "^5.0.3",
-    "webpack-merge": "^4.2.1"
+    "np": "^5.0.3"
   },
   "engines": {
     "node": ">=8",
