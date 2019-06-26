@@ -1,6 +1,6 @@
 {
   "name": "webpack-config-addons",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "A webpack utility for composing addon configurations for creating config presets",
   "keywords": [
     "webpack",
